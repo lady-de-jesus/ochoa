@@ -64,4 +64,13 @@ function Localiza(posicion){
 					   	'Velocidad: '      + posicion.coords.speed     + '<br />' +	
 						'Intervalo: '      + posicion.timestamp     + '<br />' ;
 }
+ 
+ //Error en la geolocalizacion
+ 
+ function ErrorLocalizacion(error){
+ 
+ alert('codigo: ' + eror.code +'\n'+
+       'mensaje: ' +error.message + '\n');
+}
+
 });//document
